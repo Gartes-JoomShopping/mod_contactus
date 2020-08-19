@@ -225,10 +225,10 @@ acymailing['excludeValuesformAcymailing62391']['email'] = 'Введите Ваш
 	};
 if (typeof jfbcJQuery == "undefined") jfbcJQuery = jQuery;
 
-
-window.addEvent((window.webkit) ? 'load' : 'domready', function() {
-				window.rokajaxsearch = new RokAjaxSearch({
-					'results': 'Результаты поиска',
+<?php
+/*window.addEvent((window.webkit) ? 'load' : 'domready', function() {
+    window.rokajaxsearch = new RokAjaxSearch({
+        'results': 'Результаты поиска',
 					'close': '',
 					'websearch': 1,
 					'blogsearch': 0,
@@ -259,7 +259,10 @@ window.addEvent((window.webkit) ? 'load' : 'domready', function() {
 					'showreadmore': 1,
 					'showdescription': 1
 				});
-			});
+			});*/
+
+?>
+
 		jQuery(document).ready(function(){
 			jQuery("input[name *= 'phone']").mask("+7 (999) 999-99-99"); 
                         jQuery("input[name *= 'fax']").mask("+7 (999) 999-99-99"); 
